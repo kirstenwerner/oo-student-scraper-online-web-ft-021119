@@ -30,7 +30,7 @@ class Student
         @profile_quote = attribute[1]
       elsif attribute[0] == 
         binding.pry
-      # end 
+      end 
     end 
   end
 
