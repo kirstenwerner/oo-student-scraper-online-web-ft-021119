@@ -28,7 +28,8 @@ class Student
         @blog = attribute[1] 
       elsif attribute[0] == :profile_quote
         @profile_quote = attribute[1]
-      elsif attribute[0] == 
+      elsif attribute[0] == :bio 
+        @bio = attribute[1]
         # binding.pry
       end 
     end 
