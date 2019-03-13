@@ -29,7 +29,7 @@ class Student
       elsif attribute[0] == :profile_quote
         @profile_quote = attribute[1]
       elsif attribute[0] == 
-        binding.pry
+        # binding.pry
       end 
     end 
   end
